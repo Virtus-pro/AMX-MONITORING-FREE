@@ -1,0 +1,29 @@
+AddDefaultCharset utf-8
+Options -Indexes 
+RewriteEngine On
+
+##ERRORS
+ErrorDocument 403 /error.php?p=403
+ErrorDocument 404 /error.php?p=404
+
+DirectoryIndex index.php
+
+
+
+##<Files cron.php>
+##deny from all
+##</Files>
+
+RewriteEngine On
+RewriteRule ^$ index.php
+RewriteRule ^register/$ index.php?id=add
+RewriteRule ^search/$ index.php?id=search
+RewriteRule ^news/$ index.php?id=news
+RewriteRule ^contact/$ index.php?id=contact
+RewriteRule ^server-([0-9]+)$ index.php?id=info&serv=$1&info=$1 [NS]
+RewriteRule ^news/([0-9]+)$ index.php?id=news&news_id=$1 [NS]
+RewriteRule ^pages/([0-9]+)$ index.php?id=page&pages_id=$1 [NS]
+RewriteRule ^all_servers/$ index.php?id=all_servers
+RewriteRule ^userbar-([0-9]+).jpg$ userbar.php?id=$1
+RewriteRule ^server-([0-9]+)&banners$ index.php?id=info&serv=$1&banners=$1 [NE]
+RewriteRule ^server-([0-9]+)&web$ index.php?id=info&serv=$1&web=$1 [NE]

@@ -1,0 +1,245 @@
+.eligible img { border-bottom: 4px solid #333; }
+img {     vertical-align: middle;  }   
+#stats-nav {
+position: absolute;
+top: 102px;
+right: 20px;
+}
+
+#stats-nav,
+#stats-nav li {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#stats-nav li {
+float: left;
+}
+
+#stats-nav li a {
+display: block;
+_height: 1px;
+padding: 1px 3px;
+width: 109px;
+text-align: center;
+margin: 0 3px;
+border: 1px solid #000;
+border-bottom: 1px solid #171612;
+background: #373632;
+font-weight: bold;
+}
+
+#stats-nav li a:hover,
+#stats-nav li.current a {
+border: 1px solid #000;
+background: #474642;
+color: #fff;
+border-bottom: 1px solid #474642;
+}
+
+.extra-space div.award-inline { margin-right: 1px; }
+
+
+
+div.unlock-inline {
+float: left;
+width: 113px;
+height: 33px;
+position: relative;
+margin: 0 7px 0 5px;
+}
+
+div.unlock-inline b {
+display: none;
+}
+
+div.unlock-pop {
+width: 128px;
+display: none;
+position: absolute;
+top: 30px;
+left: 65px;
+z-index: 50;
+background: #444643;
+border: 4px solid #383c33;
+}
+
+div.unlock-inline:hover div.unlock-pop {
+display: block;
+}
+
+div.unlock-pop p,
+div.unlock-pop ul {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+#add-to-mlb {
+position: absolute;
+top: 265px;
+left: 8px;
+}
+i.stat-need {
+font: italic 10px Verdana;
+margin: 0;
+padding: 0;
+}
+
+#rankslist {
+
+}
+
+div.heatmap a {
+border: 0;
+}
+
+div.heatmap a:hover {
+border-bottom: 1px solid #f6b620;
+}
+
+#rankslist-home img {
+float: left;
+margin: 2px;
+}
+#contentForm {
+  display: block;
+  width: 500px;
+  margin: 30px auto;/*this line will center the page*/
+}
+
+/* and now the form formatting itself */
+label {
+  display: block;
+  float: left;
+  clear: left;
+  Width: 150px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin: 5px 0;
+}
+
+input, textarea, select {
+  margin: 0;
+  padding: 2px;
+  font-size: 1em;
+  color: #474642;
+  background: #F5F5F5;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+}   
+
+input:focus, textarea:focus, select:focus {
+  border: 1px solid #999;
+  background-color: #FFFFFF;
+}
+
+input.button_accept {
+  border: 0px;
+  width: 16px;
+  background:url("../images/admin/accept.png");
+  height: 16px;
+}
+input.button_cancel {
+  border: 0px;
+  width: 16px;
+  background:url("../images/admin/cancel.png");
+  height: 16px;
+}
+input.button {
+  border: none;
+  font-weight: bold;
+  border: 1px solid #1E1C18;
+  width: 90px;
+  background-color: #3C3A36;
+  height: 20px;
+}
+
+span.required{
+  font-size: 13px !important;
+  color: red !important;
+}
+
+.errormsg {
+  display: block;
+  width: 90%;
+  height: 22px;
+  line-height: 22px;
+  color: #C0BCB0;
+  font-weight: bold;
+  background: #3C3A36 10px center;
+  padding: 3px 10px 3px 40px;
+  margin: 10px 0;
+  border-top: 2px solid #C0BCB0;
+  border-bottom: 2px solid #C0BCB0;
+  text-align:center;
+}
+
+.msgSent {
+  font-size: 20px;
+  text-align: center;
+}
+#easyTooltip{
+
+margin:0 10px 1em 0;
+
+width:250px;
+
+padding:8px;
+
+background:#fcfcfc;
+
+border:1px solid #e1e1e1;
+
+line-height:130%; 
+
+}
+
+#easyTooltip h3{
+
+margin:0 0 .5em 0;
+
+font:13px Arial, Helvetica, sans-serif;
+
+text-transform:uppercase;
+
+} 
+
+#easyTooltip p{
+
+margin:0 0 .5em 0;
+
+} 
+
+#easyTooltip img{
+
+background:#fff;
+
+padding:1px;
+
+border:1px solid #e1e1e1;
+
+float:left;
+
+margin-right:10px;
+
+} 
+
+#item{display:none;}
+
+
+a.vote {
+	display:inline-block;
+	background-position:center;
+	height:16px;
+	width:16px;
+	background:url("../images/arrow_up.png");
+	vertical-align: middle;
+}
+
+.center {
+	background-position:center;
+	vertical-align: middle;
+}
+

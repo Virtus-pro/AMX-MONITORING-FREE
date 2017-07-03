@@ -1,0 +1,35 @@
+
+
+a:hover {
+	text-decoration:none;
+}
+
+a img {
+	border:0;
+}
+
+
+.map {
+	/* border:3px solid #9a9a9a; */
+}
+.map:hover {
+	/* border:3px solid #ffffff; */
+}
+
+.m0 {
+	margin:0;
+}
+
+.fixer {
+	clear:left;
+}
+
+p {
+	margin:3px 0;
+}
+
+#server_title {
+	width:140px;
+	height:20px;
+	overflow:hidden;
+}
