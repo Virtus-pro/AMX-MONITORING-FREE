@@ -3,7 +3,8 @@
      AMX MONITORING v.1.1.6
 	Разработчик: Virtus-pro
 
-	Сайт: www.amxservers.ru 
+	Сайт: https://www.amxservers.ru 
+	Форум: http://forum.amxservers.ru/index.php?/forum/27-amx-monitoring-free/
 	
 	******Спасибо. Надеемся Вам понравится наш продукт.********
 */
