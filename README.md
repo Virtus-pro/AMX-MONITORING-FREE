@@ -1,3 +1,3 @@
-# AMX-MONITORING-FREE
+# AMX MONITORING FREE
 Project for www.amxservers.ru<br><br>
-<b>Game servers monitoring script</b>
+<b>GAME SERVERS MONITORING PHP</b>
